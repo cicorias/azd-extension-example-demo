@@ -6,4 +6,4 @@ id: cicoria.demo
 language: go
 namespace: cedarlogic
 usage: azd cedarlogic <command> [options]
-version: 0.0.1
+version: v0.1

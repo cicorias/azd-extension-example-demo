@@ -1,0 +1,70 @@
+{
+  "extensions": [
+    {
+      "id": "cicoria.demo",
+      "namespace": "cedarlogic",
+      "displayName": "Demo of simple extension",
+      "description": "just does some os commands",
+      "versions": [
+        {
+          "version": "v0.1",
+          "capabilities": [
+            "custom-commands"
+          ],
+          "usage": "azd cedarlogic \u003ccommand\u003e [options]",
+          "examples": null,
+          "artifacts": {
+            "darwin/amd64": {
+              "checksum": {
+                "algorithm": "sha256",
+                "value": "833f3104b6e1f4ae2acd6ca1dc79fb35a0cae3bbf3836255b95b7e458741e92c"
+              },
+              "entryPoint": "cicoria-demo-darwin-amd64",
+              "url": "https://github.com/cicorias/azd-extension-example-demo/releases/download/azd-ext-cicoria-demo_v0.1/cicoria-demo-darwin-amd64.zip"
+            },
+            "darwin/arm64": {
+              "checksum": {
+                "algorithm": "sha256",
+                "value": "4c22c0e7a381510ee35f997f982979d2c3a7c7e3fc177ba84e9836fa54b3ebe5"
+              },
+              "entryPoint": "cicoria-demo-darwin-arm64",
+              "url": "https://github.com/cicorias/azd-extension-example-demo/releases/download/azd-ext-cicoria-demo_v0.1/cicoria-demo-darwin-arm64.zip"
+            },
+            "linux/amd64": {
+              "checksum": {
+                "algorithm": "sha256",
+                "value": "ee155ae8fe27975961e1e63d94ff8552046b752381ac6c9b6c9c113b1df71dfa"
+              },
+              "entryPoint": "cicoria-demo-linux-amd64",
+              "url": "https://github.com/cicorias/azd-extension-example-demo/releases/download/azd-ext-cicoria-demo_v0.1/cicoria-demo-linux-amd64.tar.gz"
+            },
+            "linux/arm64": {
+              "checksum": {
+                "algorithm": "sha256",
+                "value": "007a790140ea71eb35bd35643d119b94a4b432472e0cb99566d5d04868f6825d"
+              },
+              "entryPoint": "cicoria-demo-linux-arm64",
+              "url": "https://github.com/cicorias/azd-extension-example-demo/releases/download/azd-ext-cicoria-demo_v0.1/cicoria-demo-linux-arm64.tar.gz"
+            },
+            "windows/amd64": {
+              "checksum": {
+                "algorithm": "sha256",
+                "value": "20a030941ee2334313226428e144775a24fdfabe09001e8a564c782426f10996"
+              },
+              "entryPoint": "cicoria-demo-windows-amd64.exe",
+              "url": "https://github.com/cicorias/azd-extension-example-demo/releases/download/azd-ext-cicoria-demo_v0.1/cicoria-demo-windows-amd64.zip"
+            },
+            "windows/arm64": {
+              "checksum": {
+                "algorithm": "sha256",
+                "value": "2f0f6a90daa6624e2ead6b8e5cd50691402df19258c6a29d2b34f2022da1e757"
+              },
+              "entryPoint": "cicoria-demo-windows-arm64.exe",
+              "url": "https://github.com/cicorias/azd-extension-example-demo/releases/download/azd-ext-cicoria-demo_v0.1/cicoria-demo-windows-arm64.zip"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
