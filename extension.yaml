@@ -1,0 +1,9 @@
+capabilities:
+    - custom-commands
+description: just does some os commands
+displayName: Demo of simple extension
+id: cicoria.demo
+language: go
+namespace: cedarlogic
+usage: azd cedarlogic <command> [options]
+version: 0.0.1
